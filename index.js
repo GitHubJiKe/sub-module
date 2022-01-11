@@ -6,7 +6,12 @@ function log(params) {
 	console.log(params);
 }
 
+function helloword() {
+	log('Hello World')
+}
+
 module.exports = {
 	log,
-	add
+	add,
+	helloword
 }
