@@ -1,7 +1,12 @@
-module.exports = function (a, b) {
+function add(a, b) {
 	return a + b;
 }
 
-exports.log = function (params) {
+function log(params) {
 	console.log(params);
+}
+
+module.exports = {
+	log,
+	add
 }
